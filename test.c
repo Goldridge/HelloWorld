@@ -8,6 +8,6 @@ int main(int argc, char **argv)
        printf("Usage: %s  <argument>\n",  argv[0]);
        exit(-1);
     }
-    printf("%s\n", *argv);
+    printf("%s %s\n", *argv, *argv[2]);
     return 0;
 }
